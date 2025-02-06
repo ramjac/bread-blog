@@ -22,10 +22,3 @@ featuredimg = "/images/Chocolate-Beer-Bread.jpg"
 
 Some thoughts on process.
 
-{{< tutorialimages >}}
-
-![apple-tarts1](/images/Chocolate-Beer-Bread.jpg)
-
-{{< /tutorialimages >}}
-
-
