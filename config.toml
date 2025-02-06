@@ -3,8 +3,10 @@ languageCode = 'en-us'
 title = 'Bread Blog'
 
 theme = "quietfoodie"
-sectionPagesMenu = "main"
-    paginate = 3
+[pagination]
+  disableAliases = false
+  pagerSize = 3
+  path = 'main'
 
 [markup.goldmark.renderer]
     unsafe = true
