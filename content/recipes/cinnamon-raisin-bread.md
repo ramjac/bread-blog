@@ -20,5 +20,4 @@ featuredimg = "/images/Chocolate-Beer-Bread.jpg"
 
 {{< instructions duration="1 hour" >}}
 
-Some thoughts on process.
-
+Some thoughts on process. Testing a change.
