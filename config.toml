@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://ramjac.github.io/bread-blog'
 languageCode = 'en-us'
 title = 'Bread Blog'
 
@@ -28,4 +28,4 @@ theme = "quietfoodie"
     [module.hugoVersion]
     min = "0.41.0"
 # if your baseurl is not the site root, set canonifyurls to true (if you're hosting on github pages, for example)
-canonifyURLs = "false"
+canonifyURLs = "true"
