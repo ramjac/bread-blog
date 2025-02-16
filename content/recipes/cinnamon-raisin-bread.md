@@ -20,4 +20,4 @@ featuredimg = "/images/Chocolate-Beer-Bread.jpg"
 
 {{< instructions duration="1 hour" >}}
 
-Some thoughts on process. Testing a change.
+2/8/25: The day before the big KC vs Philly Superbown showdown. 
