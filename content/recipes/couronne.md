@@ -23,4 +23,6 @@ featuredimg = "/images/Chocolate-Beer-Bread.jpg"
 
 Pairs well with goat cheese.
 
-2/15/25: Day after Valentine's day. After staying up past midnight watching Vikings & the sons of Ragnar Lothbrok avenge his death followed by surprise fall of laundry detergent off shelf & very early morning clean up, this couronne was a much needed turnaround for us.
+2/15/25: Day after Valentine's day. After staying up past midnight watching Vikings and the sons of Ragnar Lothbrok avenge his death followed by surprise fall of laundry detergent off shelf and very early morning clean up, this couronne was a much needed turnaround for us.
+
+This French bread is purposely shaped into what that after which it's named: a crown. Often you'll see recipes with the highlighted ingrredients of cranberries and pecan nuts. We substituted walnuts & 
