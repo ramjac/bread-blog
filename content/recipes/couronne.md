@@ -27,4 +27,6 @@ Pairs well with goat cheese.
 
 This French bread is purposely shaped into what that after which it's named: a crown. Often you'll see recipes with the highlighted ingrredients of cranberries and pecan nuts. We substituted walnuts & raisins because that's what we had on hand.
 
-I wasn't expecting much from this recipe, choosing it primarily to use up an excess of raisins we had leftover from Christmas baking. Eating a slice on its own allows you to appreciate it's lovely textures: hard crust covering a chewy center with added pizazz 
+I wasn't expecting much from this recipe, choosing it primarily to use up an excess of raisins we had leftover from Christmas baking. Eating a slice on its own allows you to appreciate it's lovely textures: hard crust covering a chewy center with added variety from the walnuts. It's a versatile bread as well. I used a slice to soak up the extra sauce from my Blue Apron gnocchi dinner. Its flavor profile, however, is optimized by pairing with goat cheese to bring out the combination of sharpness and sweetness from the embedded fruit.
+
+Summary comments: I woke up the next morning literally wondering when we could have another crown (the answer is no sooner than the next day due to the fermentation time) and that this bread is a perfect companion to a charcuterie board.
