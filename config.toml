@@ -1,4 +1,4 @@
-baseURL = 'https://ramjac.github.io/bread-blog'
+baseURL = 'localhost:1313/bread-blog'
 languageCode = 'en-us'
 title = 'Bread Blog'
 
