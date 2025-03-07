@@ -6,11 +6,11 @@ author = "Author"
 tags = ["loaf","breakfast"]
 courses = ["main"]
 # recipe thumbnail on courses
-featuredimg = "/images/Chocolate-Beer-Bread.jpg"
+featuredimg = "/images/Cinnamon-Raisin-Bread.jpg"
 +++
 
 <!-- image used on the recipe schema -->
-![Chocolate Beer Bread](/images/Chocolate-Beer-Bread.jpg)
+![Cinnamon Raisin Bread](/images/Cinnamon-Raisin-Bread.jpg)
 
 {{< ingredients >}}
 
