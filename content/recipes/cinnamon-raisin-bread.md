@@ -14,7 +14,7 @@ featuredimg = "/images/Cinnamon-Raisin-Bread.jpg"
 
 {{< ingredients >}}
 
-* Used regular flour
+* Used regular flour instead of *****.
 
 {{< instructions duration="1 hour" >}}
 
