@@ -14,10 +14,7 @@ featuredimg = "/images/Chocolate-Beer-Bread.jpg"
 
 {{< ingredients >}}
 
-* Dropped cranberries
-* Doubled raisins
-* Used regular flour instead of whole wheat for the preferment
-
+* Used Cabot cheddar instead of mozzarella
 
 {{< instructions duration="1 hour" >}}
 
