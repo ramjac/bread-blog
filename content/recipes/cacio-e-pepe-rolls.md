@@ -6,11 +6,11 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Chocolate-Beer-Bread.jpg"
+featuredimg = "/images/Cacio-e-Pepe-Rolls.jpg"
 +++
 
 <!-- image used on the recipe schema -->
-![Chocolate Beer Bread](/images/Chocolate-Beer-Bread.jpg)
+![Cacio e Pepe Rolls](/images/Cacio-e-Pepe-Rolls.jpg)
 
 {{< ingredients >}}
 

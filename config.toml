@@ -1,4 +1,4 @@
-baseURL = 'localhost:1313/bread-blog'
+baseURL = 'ramjac.app'
 languageCode = 'en-us'
 title = 'Bread Blog'
 

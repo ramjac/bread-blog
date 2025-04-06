@@ -1,16 +1,16 @@
 +++
 title = "Foccaci Di Recco"
 published = 2025-02-03T10:20:54-05:00
-draft = true
+draft = false
 author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Chocolate-Beer-Bread.jpg"
+featuredimg = "/images/Foccaci-Di-Recco.jpg"
 +++
 
 <!-- image used on the recipe schema -->
-![Chocolate Beer Bread](/images/Chocolate-Beer-Bread.jpg)
+![Foccaci Di Recco](/images/Foccaci-Di-Recco.jpg)
 
 {{< ingredients >}}
 
