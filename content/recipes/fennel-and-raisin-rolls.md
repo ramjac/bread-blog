@@ -25,4 +25,4 @@ Takeaway point: Pairs well with goat cheese.
 
 A handful of recipes into this sourdough bread baking journey -> this was a surprise upset in a wonderful way. I was not excited about this recipe, which again was picked to use up an excess of raisins leftover from Christmas baking of walnut rolls. 
 
-It has a lovely outer crust and soft middle. The sweetness that the raisins bring is why these rolls go so well with cheese. We had already offered to give some away to a friend during prep time. I regretted this decision after actually trying one. 
+It has a lovely outer crust and soft middle. The sweetness that the raisins bring is why these rolls go so well with cheese. We actually made them to go along with a charcuterie board for a board game party, and the four of us finished them off even after three of us had just finished a light lunch.
