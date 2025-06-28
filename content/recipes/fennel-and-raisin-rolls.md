@@ -9,8 +9,8 @@ courses = ["appetizer"]
 featuredimg = "/images/Fennel-and-Golden-Raisin-Rolls.jpg"
 +++
 
-<!-- image used on the recipe schema -->
-![Fennel and Golden Raisin Rolls](/images/Fennel-and-Golden-Raisin-Rolls.jpg)
+{{< img src="images/Fennel-and-Golden-Raisin-Rolls.jpg" alt="Fennel and Golden Raisin Rolls" width="700" caption="Fennel and Golden Raisin Rolls" >}}
+
 
 {{< ingredients >}}
 

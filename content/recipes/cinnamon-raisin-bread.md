@@ -9,8 +9,7 @@ courses = ["main"]
 featuredimg = "/images/Cinnamon-Raisin-Bread.jpg"
 +++
 
-<!-- image used on the recipe schema -->
-![Cinnamon Raisin Bread](/images/Cinnamon-Raisin-Bread.jpg)
+{{< img src="images/Cinnamon-Raisin-Bread.jpg" alt="A loaf of cinnamon raisin bread on a wooden cutting board" width="700" caption="Freshly baked cinnamon raisin swirl bread." >}}
 
 {{< ingredients >}}
 

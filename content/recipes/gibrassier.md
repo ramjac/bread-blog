@@ -9,8 +9,7 @@ courses = ["appetizer"]
 featuredimg = "/images/Gibrassier.jpg"
 +++
 
-<!-- image used on the recipe schema -->
-![Gibrassier](/images/Gibrassier.jpg)
+{{< img src="images/Gibrassier.jpg" alt="Gibrassier" width="700" caption="Gibrassier." >}}
 
 {{< ingredients >}}
 

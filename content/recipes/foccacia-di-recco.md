@@ -6,11 +6,10 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Foccaci-Di-Recco.jpg"
+featuredimg = "/images/images/Foccacia-Di-Recco.jpg"
 +++
 
-<!-- image used on the recipe schema -->
-![Foccaci Di Recco](/images/Foccaci-Di-Recco.jpg)
+{{< img src="images/Foccacia-Di-Recco.jpg" alt="Foccacia Di Recco" width="700" caption="Foccacia Di Recco" >}}
 
 {{< ingredients >}}
 

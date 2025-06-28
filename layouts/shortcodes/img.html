@@ -1,0 +1,43 @@
+{{/*
+  Image shortcode that uses Hugo's image processing.
+  Usage: {{< img src="path/to/image.jpg" alt="Alt text" width="600" caption="A caption" >}}
+
+  Parameters:
+  - src (required): Path to the image relative to the /assets directory.
+  - alt (required): Alt text for the image.
+  - width (optional): The desired width of the image in pixels.
+  - height (optional): The desired height of the image in pixels.
+  - caption (optional): A caption to display below the image.
+  - class (optional): CSS class for the <figure> element.
+*/}}
+
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default $src }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $caption := .Get "caption" }}
+{{ $class := .Get "class" }}
+
+{{ with resources.Get $src }}
+  {{ $original := . }}
+  {{ $resized := "" }}
+
+  {{/* Construct the resize options string, e.g., "600x", "x400", "600x400" */}}
+  {{ $resizeOptions := "" }}
+  {{ if and $width $height }}
+    {{ $resizeOptions = printf "%sx%s" $width $height }}
+  {{ else if $width }}
+    {{ $resizeOptions = printf "%sx" $width }}
+  {{ else if $height }}
+    {{ $resizeOptions = printf "x%s" $height }}
+  {{ end }}
+
+  {{ $resized = cond (ne $resizeOptions "") (.Resize $resizeOptions) . }}
+
+  <figure{{ with $class }} class="{{ . }}"{{ end }}>
+    <img src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}" alt="{{ $alt }}" loading="lazy">
+    {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
+{{ else }}
+  {{ errorf "Image not found in /assets: %s" $src }}
+{{ end }}
