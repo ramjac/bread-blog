@@ -1,12 +1,12 @@
 +++
-title = "Foccaci Di Recco"
+title = "Foccacia Di Recco"
 published = 2025-02-03T10:20:54-05:00
 draft = false
 author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/images/Foccacia-Di-Recco.jpg"
+featuredimg = "/images/Foccacia-Di-Recco.jpg"
 +++
 
 {{< img src="images/Foccacia-Di-Recco.jpg" alt="Foccacia Di Recco" width="700" caption="Foccacia Di Recco" >}}
