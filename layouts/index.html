@@ -1,0 +1,42 @@
+{{ define "title"}} {{ .Site.Title}} {{ end }} {{ define "main" }}
+<section>
+  <h1>Recipes</h1>
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "recipes") }}
+  {{ range $paginator.Pages }}
+  <article>
+    <div class="postheader">
+      <h2><a href="{{.Permalink}}" class="postTitle">{{.Title}}</a></h2>
+      <p>{{.Date.Format "2006-01-02"}}</p>
+    </div>
+    {{ with .Params.featuredimg }}
+      {{ with resources.Get . }}
+        {{ $image := .Resize "600x" }}
+        <figure class="featured-image">
+          <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Params.featuredimgalt | default $.Title }}" loading="lazy">
+        </figure>
+      {{ else }}
+        {{ warnf "Featured image not found in assets: %s in %s" . $.File.Path }}
+      {{ end }}
+    {{ end }}
+    <div>{{ .Content }}</div>
+    <div class="shareemail">
+      <a
+        href="mailto:?subject={{.Title}} Recipe&body={{ .Permalink }}"
+        title="Share by email"
+        ><img src="/images/mail-line.svg" alt="envelope" class="envelope" />
+        Send recipe by email</a
+      >
+    </div>
+    <p style="text-align: center">***</p>
+    <hr class="separatorline" />
+  </article>
+  {{ end }}
+  {{ if .Paginator.HasPrev }}
+  <a href="{{ .Paginator.Prev.URL }}" class="paginatorarrows"> << </a>
+  {{ end }} {{ .Paginator.PageNumber }} {{ if .Paginator.HasNext }}
+  <a href="{{ .Paginator.Next.URL }}" class="paginatorarrows"> >> </a>
+  {{ end }}
+</section>
+{{ if $.Site.Params.imagesSideBySide }}
+{{ end }}
+{{ end }}

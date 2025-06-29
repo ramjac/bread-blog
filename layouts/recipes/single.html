@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="recipe">
+  <header class="recipe-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  {{ with .Params.featuredimg }}
+    {{ with resources.Get . }}
+      {{/* Resize to a larger size for single pages, e.g., 800px width */}}
+      {{ $image := .Resize "800x" }}
+      <figure class="featured-image">
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Params.featuredimgalt | default $.Title }}" caption="{{ $.Params.featuredimgcaption | default $.Title }}" loading="lazy">
+      </figure>
+    {{ else }}
+      {{ warnf "Featured image not found in assets: %s in %s" . $.File.Path }}
+    {{ end }}
+  {{ end }}
+
+  <div class="recipe-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

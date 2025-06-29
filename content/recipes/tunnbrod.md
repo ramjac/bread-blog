@@ -6,16 +6,13 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer","main","side"]
 # recipe thumbnail on courses
-featuredimg = "/images/Tunnbrod.jpg"
+featuredimg = "images/Tunnbrod.jpg"
+featuredimgalt = "Tunnbrod"
 +++
-
-<!-- image used on the recipe schema -->
-![Tunnbrod](/images/Tunnbrod.jpg)
 
 {{< ingredients >}}
 
 * none
-
 
 {{< instructions duration="2 hour" >}}
 

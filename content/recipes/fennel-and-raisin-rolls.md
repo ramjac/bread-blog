@@ -6,11 +6,9 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Fennel-and-Golden-Raisin-Rolls.jpg"
+featuredimg = "images/Fennel-and-Golden-Raisin-Rolls.jpg"
+featuredimgalt = "Fennel and Golden Raisin Rolls"
 +++
-
-{{< img src="images/Fennel-and-Golden-Raisin-Rolls.jpg" alt="Fennel and Golden Raisin Rolls" width="700" caption="Fennel and Golden Raisin Rolls" >}}
-
 
 {{< ingredients >}}
 

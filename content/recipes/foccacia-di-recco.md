@@ -6,10 +6,9 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Foccacia-Di-Recco.jpg"
+featuredimg = "images/Foccacia-Di-Recco.jpg"
+featuredimgalt = "Foccacia Di Recco"
 +++
-
-{{< img src="images/Foccacia-Di-Recco.jpg" alt="Foccacia Di Recco" width="700" caption="Foccacia Di Recco" >}}
 
 {{< ingredients >}}
 
