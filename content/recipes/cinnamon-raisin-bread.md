@@ -6,10 +6,9 @@ author = "Author"
 tags = ["loaf","breakfast"]
 courses = ["main"]
 # recipe thumbnail on courses
-featuredimg = "/images/Cinnamon-Raisin-Bread.jpg"
+featuredimg = "images/Cinnamon-Raisin-Bread.jpg"
+featuredimgalt = "A loaf of cinnamon raisin bread on a wooden cutting board"
 +++
-
-{{< img src="images/Cinnamon-Raisin-Bread.jpg" alt="A loaf of cinnamon raisin bread on a wooden cutting board" width="700" caption="Freshly baked cinnamon raisin swirl bread." >}}
 
 {{< ingredients >}}
 

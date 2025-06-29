@@ -1,0 +1,33 @@
+{{ define "title"}} 
+  {{ .Title }} ~ {{ .Site.Title}} 
+{{ end }} 
+
+{{ define "main" }}
+<section>
+  <h1>{{ .Title }}</h1>
+  {{ if (eq .Title "Courses") }}
+    {{ range (.Paginator 35).Pages }}
+      <article class="coursepost">
+        <h2><a href="{{.Permalink}}">{{ .Title }}</a></h2>
+      </article>
+      {{ end }}
+
+      {{ else }}
+      <div id="coursesthumbnails">
+      {{ range (.Paginator 35).Pages }}
+         <article class="coursepost">
+          <a href="{{.Permalink}}" class="recipe-card-image-link"><h2 class="postTitle">{{ .Title }}</h2>
+            {{ with .Params.featuredimg }}
+              {{ with resources.Get . }}
+                {{/* Define the small image size for list pages, e.g., 400px width */}}
+                {{ $image := .Resize "400x" }}
+                  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Params.featuredimgalt | default $.Title }}" loading="lazy">
+              {{ end }}
+            {{ end }}
+          </a>
+         </article>
+      {{ end }}
+      </div>
+  {{ end }}
+</section>
+{{ end }}

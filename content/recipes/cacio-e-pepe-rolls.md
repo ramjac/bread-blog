@@ -6,11 +6,9 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Cacio-e-Pepe-Rolls.jpg"
+featuredimg = "images/Cacio-e-Pepe-Rolls.jpg"
+featuredimgalt = "A loaf of cinnamon raisin bread on a wooden cutting board"
 +++
-
-<!-- image used on the recipe schema -->
-![Cacio e Pepe Rolls](/images/Cacio-e-Pepe-Rolls.jpg)
 
 {{< ingredients >}}
 

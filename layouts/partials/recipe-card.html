@@ -1,0 +1,16 @@
+<article class="recipe-card">
+  {{ with .Params.featuredimg }}
+    {{ with resources.Get . }}
+      {{/* Define the small image size for list pages, e.g., 400px width */}}
+      {{ $image := .Resize "400x" }}
+      <a href="{{ $.RelPermalink }}" class="recipe-card-image-link">
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Params.featuredimgalt | default $.Title }}" loading="lazy">
+      </a>
+    {{ end }}
+  {{ end }}
+  <div class="recipe-card-content">
+    <h2 class="recipe-card-title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+  </div>
+</article>

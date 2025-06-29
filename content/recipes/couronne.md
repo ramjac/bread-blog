@@ -6,10 +6,10 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Couronne.jpg"
+featuredimg = "images/Couronne.jpg"
+featuredimgalt = "A loaf of Couronne bread, shaped like a crown."
+featuredimgcaption = "The Couronne, a French bread shaped like a crown, often made with nuts and dried fruit."
 +++
-
-{{< img src="images/Couronne.jpg" alt="A loaf of Couronne bread, shaped like a crown." width="700" caption="The Couronne, a French bread shaped like a crown, often made with nuts and dried fruit." >}}
 
 {{< ingredients >}}
 

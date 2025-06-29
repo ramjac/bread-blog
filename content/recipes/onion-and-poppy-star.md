@@ -6,10 +6,9 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Onion-and-Poppy-Star-bread.jpg"
+featuredimg = "images/Onion-and-Poppy-Star-bread.jpg"
+featuredimgalt = "Onion and Poppy Star bread"
 +++
-
-{{< img src="images/Onion-and-Poppy-Star-bread.jpg" alt="Onion and Poppy Star bread" width="700" caption="Onion and Poppy Star bread." >}}
 
 {{< ingredients >}}
 
