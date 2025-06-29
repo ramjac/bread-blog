@@ -6,11 +6,10 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Chocolate-Beer-Bread.jpg"
+featuredimg = "/images/Onion-and-Poppy-Star-bread.jpg"
 +++
 
-<!-- image used on the recipe schema -->
-![Chocolate Beer Bread](/images/Chocolate-Beer-Bread.jpg)
+{{< img src="images/Onion-and-Poppy-Star-bread.jpg" alt="Onion and Poppy Star bread" width="700" caption="Onion and Poppy Star bread." >}}
 
 {{< ingredients >}}
 
@@ -20,6 +19,6 @@ featuredimg = "/images/Chocolate-Beer-Bread.jpg"
 
 
 {{< instructions duration="1 hour" >}}
+For anyone who is familiar with the King Arthur cinnamon star bread, this is a savory version. It's always a crowd pleaser too for social gatherings or giving away to a neighbor because of its eye-catching appearance and pull-away convenience. Also, for those who haven't tried a bialy bread yet, this is similar, except lighter and slightly sweeter. 
 
-Pairs well with goat cheese.
-
+Side note on bialy, to save time for those who might otherwise have been inspired to Google it. They're like baked (as opposed to boiled) bagels with a crater rather than a whole in the middle traditionally filled with diced onion flavored with poppy seeds and garlic.

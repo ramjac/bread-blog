@@ -6,11 +6,11 @@ author = "Courtney Saw"
 tags = [""]
 courses = ["appetizer"]
 # recipe thumbnail on courses
-featuredimg = "/images/Chocolate-Beer-Bread.jpg"
+featuredimg = "/images/Fennel-and-Golden-Raisin-Rolls.jpg"
 +++
 
-<!-- image used on the recipe schema -->
-![Chocolate Beer Bread](/images/Chocolate-Beer-Bread.jpg)
+{{< img src="images/Fennel-and-Golden-Raisin-Rolls.jpg" alt="Fennel and Golden Raisin Rolls" width="700" caption="Fennel and Golden Raisin Rolls" >}}
+
 
 {{< ingredients >}}
 
@@ -21,5 +21,8 @@ featuredimg = "/images/Chocolate-Beer-Bread.jpg"
 
 {{< instructions duration="1 hour" >}}
 
-Pairs well with goat cheese.
+Takeaway point: Pairs well with goat cheese.
 
+A handful of recipes into this sourdough bread baking journey -> this was a surprise upset in a wonderful way. I was not excited about this recipe, which again was picked to use up an excess of raisins leftover from Christmas baking of walnut rolls. 
+
+It has a lovely outer crust and soft middle. The sweetness that the raisins bring is why these rolls go so well with cheese. We actually made them to go along with a charcuterie board for a board game party, and the four of us finished them off even after three of us had just finished a light lunch.

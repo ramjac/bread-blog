@@ -9,8 +9,7 @@ courses = ["appetizer"]
 featuredimg = "/images/Couronne.jpg"
 +++
 
-<!-- image used on the recipe schema -->
-![Couronne](/images/Couronne.jpg)
+{{< img src="images/Couronne.jpg" alt="A loaf of Couronne bread, shaped like a crown." width="700" caption="The Couronne, a French bread shaped like a crown, often made with nuts and dried fruit." >}}
 
 {{< ingredients >}}
 
